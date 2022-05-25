@@ -11,6 +11,8 @@ To set up your virtual environment:
 5. Type the following: ```conda env create --name starry --file requirements.txt```
 
 ## Run the load_data script
+This script looks for the specific directory structure of this repo. A message will notify you if the fiel structure has changed when you run this script.
+
 1. Open your anaconda prompt
 2. Activate the environment you created in the Installation section: ```activate starry```
 3. Change your directory to the scripts folder of this repo (see earlier steps)
