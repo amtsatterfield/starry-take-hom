@@ -7,8 +7,7 @@ This script was written using Python version 3.9.12. A virtual environment is re
 To set up your virtual environment:
 1. Clone this repo locally
 2. Open your anaconda prompt
-3. Change the directory to the Scripts folder of this repo:
-        cd <parent directory path>\take-home-assignment\scripts
+3. Change the directory to the Scripts folder of this repo: <br/> cd (your parent directory path)\take-home-assignment\scripts
 5. Type the following: 
         conda env create --name starry --file requirements.txt
 
