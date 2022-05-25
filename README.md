@@ -8,16 +8,16 @@ To set up your virtual environment:
 1. Clone this repo locally
 2. Open your anaconda prompt
 3. Change the directory to the Scripts folder of this repo:
-    cd <parent directory path>\take-home-assignment\scripts
+        cd <parent directory path>\take-home-assignment\scripts
 5. Type the following: 
-    conda env create --name starry --file requirements.txt
+        conda env create --name starry --file requirements.txt
 
 ## Run the load_data script
 1. Open your anaconda prompt
-2. Activate the environment you created in the Installation section
-    activate starry
+2. Activate the environment you created in the Installation section:
+        activate starry
 3. Change your directory to the scripts folder of this repo (see earlier steps)
-4. Execute the script in your anaconda prompt
-    python load_data.py
-# Results
+4. Execute the script in your anaconda prompt:
+        python load_data.py
+### Results
 The script should return a total row count. You should see a starry.db under the scripts folder.
